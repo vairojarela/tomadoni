@@ -1,0 +1,24 @@
+<IfModule mod_rewrite.c>
+Options -Indexes
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /
+RewriteRule ^inicio$ index.php?lang=es [L]
+RewriteRule ^home$ index.php?lang=en [L]
+RewriteRule ^empresa$ index.php?accion=1&tipo=Empresa&lang=es [L]
+RewriteRule ^company$ index.php?accion=1&tipo=Company&lang=en [L]
+RewriteRule ^clientes$ index.php?accion=1&tipo=Clientes&lang=es [L]
+RewriteRule ^clients$ index.php?accion=1&tipo=Clients&lang=en [L]
+RewriteRule ^representaciones$ index.php?accion=1&tipo=Representaciones&lang=es [L]
+RewriteRule ^representations$ index.php?accion=1&tipo=Representations&lang=en [L]
+RewriteRule ^ingenieria-y-asesoramiento$ index.php?accion=1&tipo=Ingenieria-y-Asesoramiento&lang=es [L]
+RewriteRule ^engineering-and-advice$ index.php?accion=1&tipo=Engineering-and-Advice&lang=en [L]
+RewriteRule ^contactenos$ index.php?accion=3&lang=es [L]
+RewriteRule ^contact$ index.php?accion=3&lang=en [L]
+RewriteRule ^productos$ index.php?accion=1&tipo=Productos&lang=es [L]
+RewriteRule ^products$ index.php?accion=1&tipo=Products&lang=en [L]
+RewriteRule ^productos-(.*)$ index.php?accion=1&tipo=Productos&categoria=$1&lang=es [L]
+RewriteRule ^products-(.*)$ index.php?accion=1&tipo=Products&categoria=$1&lang=en [L]
+RewriteRule ^nuestros-trabajos$ index.php?accion=1&tipo=Nuestros-trabajos&lang=es [L]
+RewriteRule ^our-work$ index.php?accion=1&tipo=Our-work&lang=en [L]
+</IfModule>
