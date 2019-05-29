@@ -82,7 +82,7 @@
 
     	<li><a href="ingenieria-y-asesoramiento">INGENIER&Iacute;A Y ASESORAMIENTO</a></li>
 
-    	<li><a href="nuestros-trabajos">NUESTROS TRABAJOS</a></li>
+    	<li><a href="nuestros-trabajos">TRABAJOS</a></li>
 
     	<li><a href="representaciones">REPRESENTACIONES</a></li>
 
@@ -153,6 +153,7 @@
     	<li><a href="representations">Representations</a></li>
 
     	<li><a href="clients">Clients</a></li>
+    	<li><a href="news">News</a></li>
 
     	<li><a href="contact" class="contacto">Contact</a></li>  
 

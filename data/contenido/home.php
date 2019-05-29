@@ -216,42 +216,56 @@
 
 	<h1>PRODUCTOS</h1>
 
-	<a href="productos-Molienda"><img src="imagenes/productos/1.jpg" /></a>
+    <div>
 
-	<a href="productos-Mezclado"><img src="imagenes/productos/2.jpg" /></a>
+	<a href="productos-Molienda"><img class="productos-img" src="imagenes/productos/Asset 1.png" /></a>
 
-	<a href="productos-Clasificado"><img src="imagenes/productos/3.jpg" /></a>
+	<a href="productos-Mezclado"><img class="productos-img" src="imagenes/productos/Asset 2.png" /></a>
 
-	<a href="productos-Transporte"><img src="imagenes/productos/4.jpg" /></a>
+	<a href="productos-Clasificado"><img class="productos-img" src="imagenes/productos/Asset 3.png" /></a>
 
-	<a href="productos-embolsado"><img src="imagenes/productos/5.jpg" /></a>
+	<a href="productos-Transporte"><img class="productos-img" src="imagenes/productos/Asset 4.png" /></a>
 
-	<a href="productos-Filtrado"><img src="imagenes/productos/6.jpg" /></a>
+    </div>
 
-	<a href="productos-Dosificado"><img src="imagenes/productos/7.jpg" /></a>
 
-	<a href="productos-Otros"><img src="imagenes/productos/8.jpg" /></a>
+    <div>
+	<a href="productos-embolsado"><img class="productos-img" src="imagenes/productos/Asset 5.png" /></a>
+
+	<a href="productos-Filtrado"><img class="productos-img" src="imagenes/productos/Asset 6.png" /></a>
+
+	<a href="productos-Dosificado"><img class="productos-img" src="imagenes/productos/Asset 7.png" /></a>
+
+	<a href="productos-Otros"><img class="productos-img" src="imagenes/productos/Asset 8.png" /></a>
+
+    </div>
 
     <? } else {?>
 
 	<h1>PRODUCTS</h1>
 
-	<a href="products-Milling"><img src="imagenes/productos/1b.jpg" /></a>
+    <div>
 
-	<a href="products-Mixing"><img src="imagenes/productos/2b.jpg" /></a>
+	<a href="products-Milling"><img class="productos-img" src="imagenes/productos/Asset 9.png" /></a>
 
-	<a href="products-Classifyng"><img src="imagenes/productos/3b.jpg" /></a>
+	<a href="products-Mixing"><img class="productos-img" src="imagenes/productos/Asset 10.png" /></a>
 
-	<a href="products-Conveying"><img src="imagenes/productos/4b.jpg" /></a>
+	<a href="products-Classifyng"><img class="productos-img" src="imagenes/productos/Asset 11.png" /></a>
 
-	<a href="products-Bagging"><img src="imagenes/productos/5b.jpg" /></a>
+	<a href="products-Conveying"><img class="productos-img" src="imagenes/productos/Asset 12.png" /></a>
 
-	<a href="products-Filtering"><img src="imagenes/productos/6b.jpg" /></a>
+    </div>
 
-	<a href="products-Feeders"><img src="imagenes/productos/7b.jpg" /></a>
+    <div>
+	<a href="products-Bagging"><img class="productos-img" src="imagenes/productos/Asset 13.png" /></a>
 
-	<a href="products-Others"><img src="imagenes/productos/8b.jpg" /></a>
+	<a href="products-Filtering"><img class="productos-img" src="imagenes/productos/Asset 14.png" /></a>
 
+	<a href="products-Feeders"><img class="productos-img" src="imagenes/productos/Asset 15.png" /></a>
+
+	<a href="products-Others"><img class="productos-img" src="imagenes/productos/Asset 16.png" /></a>
+
+    </div>
     <? } ?>
 
 <div class="clear"></div>
@@ -309,13 +323,15 @@
         </div>
 
     </div>
+</div>
 
-    <div class="m1">
+<div id="m4">
 
-            <h1>�DONDE ESTAMOS?</h1>
+    <div class="m1">DONDE ESTAMOS?</div>
 
-			<iframe width="287" height="124" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://maps.google.com.ar/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=<? echo $direccion_web;?>&amp;aq=&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=<? echo $direccion_web;?>&amp;t=m&amp;z=14&amp;iwloc=r1&amp;output=embed"></iframe>
-
+	    <div>
+            <iframe width="100%" height="auto" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://maps.google.com.ar/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=<? echo $direccion_web;?>&amp;aq=&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=<? echo $direccion_web;?>&amp;t=m&amp;z=14&amp;iwloc=r1&amp;output=embed"></iframe>
         </div>
 
 </div>
+

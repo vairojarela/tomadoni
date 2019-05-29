@@ -1,3 +1,4 @@
+<meta charset="UTF-8">
 <div id="footer">
 
 	<? if ($lang!='en'){?>
@@ -62,7 +63,7 @@
 
     <div class="m2">
 
-        <div class="b1">Copyright � 2014 <? echo $footer_web;?>. Todos los derechos reservados. <a href="http://www.pcsignos.com.ar/posicionamiento-web/">posicionamiento seo</a></div>
+        <div class="b1">Copyright <?php echo date("Y"); ?> <? echo $footer_web;?>. Todos los derechos reservados. <a href="http://www.pcsignos.com.ar/posicionamiento-web/">posicionamiento seo</a></div>
 
         <div class="b2"><a href="http://www.pcsignos.com.ar/agencia-marketing-digital/" target="_blank" title="Agencia de marketing digital"></a></div>
 
@@ -96,13 +97,13 @@
 
 
 
-        <div class="b2">
+       <!--  <div class="b2">
 
             <h1>WHERE ARE WE?</h1>
 
 			<iframe width="287" height="124" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://maps.google.com.ar/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=<? echo $direccion_web;?>&amp;aq=&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=<? echo $direccion_web;?>&amp;t=m&amp;z=14&amp;iwloc=r1&amp;output=embed"></iframe>
 
-        </div>
+        </div> -->
 
 
 
@@ -132,7 +133,7 @@
 
     <div class="m2">
 
-        <div class="b1">Copyright � 2014 <? echo $footer_web;?>. All rights reserved. <a href="http://www.pcsignos.com.ar/posicionamiento-web/">posicionamiento seo</a></div>
+        <div class="b1">Copyright <?php echo date("Y"); ?> <? echo $footer_web;?>. All rights reserved. <a href="http://www.pcsignos.com.ar/posicionamiento-web/">posicionamiento seo</a></div>
 
         <div class="b2"><a href="http://www.pcsignos.com.ar/agencia-marketing-digital/" target="_blank" title="Agencia de marketing digital"></a></div>
 
